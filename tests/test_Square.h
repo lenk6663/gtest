@@ -17,18 +17,18 @@ TEST(testSquare, 2roots) {
     ASSERT_EQ(array[1],1);
 }
 TEST(testSquare, floatroots) {
-    calculateRoots(array,1,-4,3.75);
+    calculateRoots(array,1,-4,3);
     ASSERT_EQ(array[0],2.5);
     ASSERT_EQ(array[1],1.5);
 }
 TEST(testSquare, nulsquare) {
     calculateRoots(array,1,-2,1);
-    ASSERT_EQ(array[0],1);
+    ASSERT_EQ(array[0],9);
     ASSERT_EQ(array[1],1);
 }
 TEST(testSquare, minussquare) {
     calculateRoots(array,500,-2,1);
-    ASSERT_EQ(array[0],6160);
+    ASSERT_EQ(array[0],1);
     ASSERT_EQ(array[1],6160);
 }
 TEST(testSquare, anol) {
