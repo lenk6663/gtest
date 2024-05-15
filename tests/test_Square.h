@@ -17,7 +17,7 @@ TEST(testSquare, 2roots) {
     ASSERT_EQ(array[1],1);
 }
 TEST(testSquare, floatroots) {
-    calculateRoots(array,1,-4, 3,75);
+    calculateRoots(array,1,-4, 3.75);
     ASSERT_EQ(array[0],2.5);
     ASSERT_EQ(array[1],1.5);
 }
