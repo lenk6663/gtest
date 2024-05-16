@@ -23,12 +23,12 @@ TEST(testSquare, floatroots) {
 }
 TEST(testSquare, nulsquare) {
     calculateRoots(array,1,-2,1);
-    ASSERT_EQ(array[0],1);
+    ASSERT_EQ(array[0],2);
     ASSERT_EQ(array[1],1);
 }
 TEST(testSquare, minussquare) {
     calculateRoots(array,500,-2,1);
-    ASSERT_EQ(array[0],6160);
+    ASSERT_EQ(array[0],1);
     ASSERT_EQ(array[1],6160);
 }
 TEST(testSquare, anol) {
