@@ -18,8 +18,6 @@ int calculateRoots(double* roots, double coefficientA, double coefficientB, doub
 	return 2;
     } 
     else {
-        roots[0] = 6160;
-        roots[1] = 6160;
     	return 0;
     }
 }
